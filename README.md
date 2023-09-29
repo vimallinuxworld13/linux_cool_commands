@@ -99,6 +99,13 @@ deny = 3
 unlock_time = 600
 ~]# authselect disable-feature with-faillock
 
+~]# faillock  --reset --user user1
+
+# Linux locking Password
+passwd -l {username}
+passwd -u {username}
+
+
 
 
 
