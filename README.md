@@ -45,7 +45,7 @@ CTRL, and U 	It can remove the complete command (line).
 
 # script
 # script -T mytime.log
-# scriptlive -T mytime.log
+# scriptreplay -T mytime.log
 
 
 Use !{command} for executing the previous instance of command quickly
